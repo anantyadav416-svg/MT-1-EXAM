@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Timetable (Semester I)</title>
+</head>
+<body>
+
+    <table border="1" cellpadding="8" cellspacing="0" align="center">
+        <!-- Title Row spanning all 5 columns -->
+        <tr>
+            <th colspan="5">Class Timetable (Semester I)</th>
+        </tr>
+
+        <!-- Column Headers -->
+        <tr>
+            <th>Day</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-1:00</th>
+        </tr>
+
+        <!-- Monday Row with Lunch Break spanning 5 rows -->
+        <tr align="center">
+            <th>Monday</th>
+            <td>HTML</td>
+            <td>Mathematics</td>
+            <td>Programming</td>
+            <td rowspan="5">Lunch<br>Break<br>(12:00-1:00)</td>
+        </tr>
+
+        <!-- Tuesday Row -->
+        <tr align="center">
+            <th>Tuesday</th>
+            <td>Mathematics</td>
+            <td>HTML</td>
+            <td>English</td>
+        </tr>
+
+        <!-- Wednesday Row -->
+        <tr align="center">
+            <th>Wednesday</th>
+            <td>Programming</td>
+            <td>English</td>
+            <td>HTML</td>
+        </tr>
+
+        <!-- Thursday Row -->
+        <tr align="center">
+            <th>Thursday</th>
+            <td>English</td>
+            <td>Programming</td>
+            <td>Mathematics</td>
+        </tr>
+
+        <!-- Friday Row -->
+        <tr align="center">
+            <th>Friday</th>
+            <td>HTML</td>
+            <td>English</td>
+            <td>Programming</td>
+        </tr>
+    </table>
+
+</body>
+</html>
